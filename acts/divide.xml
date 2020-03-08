@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="divide">
+  <Parameters>
+    <Parameter id="0" name="dividend" type="0">
+      <values>
+        <value>42</value>
+        <value>4634</value>
+        <value>34</value>
+        <value>0</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="1" name="divisor" type="0">
+      <values>
+        <value>2</value>
+        <value>4</value>
+        <value>23</value>
+        <value>6</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+  <Testset doi="2">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>42</Value>
+      <Value>2</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>42</Value>
+      <Value>4</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>42</Value>
+      <Value>23</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>42</Value>
+      <Value>6</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>4634</Value>
+      <Value>2</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>4634</Value>
+      <Value>4</Value>
+    </Testcase>
+    <Testcase TCNo="6">
+      <Value>7</Value>
+      <Value>4634</Value>
+      <Value>23</Value>
+    </Testcase>
+    <Testcase TCNo="7">
+      <Value>8</Value>
+      <Value>4634</Value>
+      <Value>6</Value>
+    </Testcase>
+    <Testcase TCNo="8">
+      <Value>9</Value>
+      <Value>34</Value>
+      <Value>2</Value>
+    </Testcase>
+    <Testcase TCNo="9">
+      <Value>10</Value>
+      <Value>34</Value>
+      <Value>4</Value>
+    </Testcase>
+    <Testcase TCNo="10">
+      <Value>11</Value>
+      <Value>34</Value>
+      <Value>23</Value>
+    </Testcase>
+    <Testcase TCNo="11">
+      <Value>12</Value>
+      <Value>34</Value>
+      <Value>6</Value>
+    </Testcase>
+    <Testcase TCNo="12">
+      <Value>13</Value>
+      <Value>0</Value>
+      <Value>2</Value>
+    </Testcase>
+    <Testcase TCNo="13">
+      <Value>14</Value>
+      <Value>0</Value>
+      <Value>4</Value>
+    </Testcase>
+    <Testcase TCNo="14">
+      <Value>15</Value>
+      <Value>0</Value>
+      <Value>23</Value>
+    </Testcase>
+    <Testcase TCNo="15">
+      <Value>16</Value>
+      <Value>0</Value>
+      <Value>6</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>DIVIDEND</Value>
+    <Value>DIVISOR</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.0</ExecutionTime>
+    <MaxDomainSize>4</MaxDomainSize>
+    <MinDomainSize>4</MinDomainSize>
+    <TotalNoOfCombination>16</TotalNoOfCombination>
+    <TotalNoOfTests>16</TotalNoOfTests>
+    <Algorithm>IPOG</Algorithm>
+  </Stat-Data>
+</System>
+

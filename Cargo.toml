@@ -8,4 +8,5 @@ edition = "2018"
 
 [dev-dependencies]
 proptest = "0.9.5"
+csv = "1.1"
 mutagen = { git="https://github.com/llogiq/mutagen" }
