@@ -17,3 +17,23 @@ These are purposes for tools Im looking for:
 Bonus:
 * Parameterized testing
     * https://github.com/frondeus/test-case/blob/master/README.md
+    
+# Installation
+1. Install rust:
+```shell script
+yay -S rustup
+rustup install nightly
+```
+2. Install cargo:
+```shell script
+yay -S cargo
+cargo install cargo-tarpaulin
+```
+3. Run tests
+```shell script
+# Standard tests and random testing
+cargo test
+
+# Line coverage
+cargo tarpaulin -v
+```
