@@ -1,16 +1,14 @@
 # Rust-testing-example
-Sample repository to test different testing frameworks and tools in Rust
-
-These are purposes for tools Im looking for:
+Testing tools:
 * Random testing (JAVA tool: Randoop)
     * https://github.com/altsysrq/proptest
-* Input Space Partitioning (Combinatorial Testing) (Java tool: ACTS)
+* Input Space Partitioning (Combinatorial Testing)
+    * ACTS: Generate input parameter and just parse them, see acts test
 * Graph Coverage (Java tool: EclEmma)
 * Logic Coverage (Java tool: EclEmma)
     * https://github.com/xd009642/tarpaulin
-    * https://github.com/mozilla/grcov
+    * https://github.com/mozilla/grcov (Could not get it to run though)
 * Syntax Coverage / Mutation Testing (Java tool: MuJava, Major)
-    * https://github.com/Geal/mutant
     * https://github.com/llogiq/mutagen
     * https://llogiq.github.io/2018/02/14/mutagen.html
 
