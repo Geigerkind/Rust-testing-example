@@ -1,3 +1,7 @@
+#[cfg(test)]
+use mutagen::mutate;
+
+#[cfg_attr(test, mutate)]
 pub fn divide(dividend: f64, divisor: f64) -> Result<f64, String> {
     if divisor.is_nan() {
         return Err("Divisor is NaN".to_string());

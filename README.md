@@ -28,6 +28,7 @@ rustup install nightly
 ```shell script
 yay -S cargo
 cargo install cargo-tarpaulin
+cargo install cargo-mutagen
 ```
 3. Run tests
 ```shell script
@@ -36,4 +37,8 @@ cargo test
 
 # Line coverage
 cargo tarpaulin -v
+
+# Mutation testing
+MUTATION_ID=1 cargo test
+MUTATION_ID=2 cargo test
 ```
