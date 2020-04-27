@@ -15,6 +15,8 @@ Testing tools:
 Bonus:
 * Parameterized testing
     * https://github.com/frondeus/test-case/blob/master/README.md
+* Snapshot testing
+    * https://crates.io/crates/insta
     
 # Installation
 1. Install rust:
