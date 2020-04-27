@@ -7,7 +7,7 @@ Testing tools:
 * Graph Coverage (Java tool: EclEmma)
 * Logic Coverage (Java tool: EclEmma)
     * https://github.com/xd009642/tarpaulin
-    * https://github.com/mozilla/grcov (Could not get it to run though)
+    * https://github.com/mozilla/grcov
 * Syntax Coverage / Mutation Testing (Java tool: MuJava, Major)
     * https://github.com/llogiq/mutagen
     * https://llogiq.github.io/2018/02/14/mutagen.html
@@ -27,6 +27,7 @@ rustup install nightly
 yay -S cargo
 cargo install cargo-tarpaulin
 cargo install cargo-mutagen
+cargo install grcov
 ```
 3. Run tests
 ```shell script
@@ -39,4 +40,7 @@ cargo tarpaulin -v
 # Mutation testing
 MUTATION_ID=1 cargo test
 MUTATION_ID=2 cargo test
+
+# Grcov
+bash ./codecov.sh (Example: https://codecov.io/gh/Geigerkind/Rust-testing-example)
 ```
