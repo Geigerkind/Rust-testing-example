@@ -21,7 +21,7 @@ Bonus:
 # Installation
 1. Install rust:
 ```shell script
-yay -S rustup
+yay -S rustup lcov
 rustup install nightly
 ```
 2. Install cargo:
@@ -44,5 +44,9 @@ MUTATION_ID=1 cargo test
 MUTATION_ID=2 cargo test
 
 # Grcov
-bash ./codecov.sh (Example: https://codecov.io/gh/Geigerkind/Rust-testing-example)
+bash ./codecov.sh
+# For results open:
+firefox target/debug/coverage/index.html
+# Codecov.io displays some data but not branch coverage
+# Link: https://codecov.io/gh/Geigerkind/Rust-testing-example
 ```
