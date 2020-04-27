@@ -5,9 +5,7 @@ cargo clean;
 cargo update;
 cargo build;
 cargo test;
-cargo test --verbose $CARGO_OPTIONS | zip -0 ccov.zip `find . \( -name "*.gc*" \) -print`;
-~/.cargo/bin/grcov ccov.zip -s . -t lcov --llvm --branch --ignore-not-existing --ignore "/*" --ignore "src/tests/*" -o lcov.info;
+~/.cargo/bin/grcov ./target/debug/ -s . -t lcov --llvm --branch --ignore-not-existing --ignore "/*" --ignore "src/tests/*" -o lcov.info;
 bash <(curl -s https://codecov.io/bash) -f lcov.info;
 genhtml -o ./target/debug/coverage/ --branch-coverage --show-details --highlight --ignore-errors source --legend ./lcov.info
-rm ./ccov.zip
 rm ./lcov.info
