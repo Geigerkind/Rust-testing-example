@@ -2,6 +2,7 @@
 Testing tools:
 * Random testing (JAVA tool: Randoop)
     * https://github.com/altsysrq/proptest
+    * https://github.com/BurntSushi/quickcheck
 * Input Space Partitioning (Combinatorial Testing)
     * ACTS: Generate input parameter and just parse them, see acts test
 * Graph Coverage (Java tool: EclEmma)
