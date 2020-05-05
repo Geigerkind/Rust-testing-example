@@ -21,6 +21,7 @@ Bonus:
    * https://github.com/utkarshkukreti/speculate.rs
    * https://github.com/farcaller/shiny
 * Mocking library?: https://github.com/mockiato/mockiato
+* Deployment testing: https://github.com/japaric/trust
     
 # Installation
 1. Install rust:
