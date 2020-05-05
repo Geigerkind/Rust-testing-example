@@ -12,6 +12,7 @@ Testing tools:
 * Syntax Coverage / Mutation Testing (Java tool: MuJava, Major)
     * https://github.com/llogiq/mutagen
     * https://llogiq.github.io/2018/02/14/mutagen.html
+    * https://github.com/rust-fuzz/afl.rs
 
 Bonus:
 * Parameterized testing: https://github.com/frondeus/test-case/blob/master/README.md
