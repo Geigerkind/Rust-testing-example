@@ -14,10 +14,9 @@ Testing tools:
     * https://llogiq.github.io/2018/02/14/mutagen.html
 
 Bonus:
-* Parameterized testing
-    * https://github.com/frondeus/test-case/blob/master/README.md
-* Snapshot testing
-    * https://crates.io/crates/insta
+* Parameterized testing: https://github.com/frondeus/test-case/blob/master/README.md
+* Snapshot testing: https://crates.io/crates/insta
+* Popular JUnit Syntax: https://github.com/utkarshkukreti/speculate.rs
     
 # Installation
 1. Install rust:
