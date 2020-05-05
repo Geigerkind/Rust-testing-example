@@ -17,7 +17,9 @@ Testing tools:
 Bonus:
 * Parameterized testing: https://github.com/frondeus/test-case/blob/master/README.md
 * Snapshot testing: https://crates.io/crates/insta
-* Popular JUnit Syntax: https://github.com/utkarshkukreti/speculate.rs
+* Popular JUnit Syntax:
+   * https://github.com/utkarshkukreti/speculate.rs
+   * https://github.com/farcaller/shiny
 * Mocking library?: https://github.com/mockiato/mockiato
     
 # Installation
