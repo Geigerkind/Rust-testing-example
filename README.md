@@ -17,6 +17,7 @@ Bonus:
 * Parameterized testing: https://github.com/frondeus/test-case/blob/master/README.md
 * Snapshot testing: https://crates.io/crates/insta
 * Popular JUnit Syntax: https://github.com/utkarshkukreti/speculate.rs
+* Mocking library?: https://github.com/mockiato/mockiato
     
 # Installation
 1. Install rust:
