@@ -1,5 +1,6 @@
 export CARGO_INCREMENTAL=0
-export RUSTFLAGS="-Zprofile -Ccodegen-units=1 -Copt-level=0 -Clink-dead-code -Coverflow-checks=off -Zno-landing-pads"
+export RUSTFLAGS="-Zprofile -Ccodegen-units=1 -Copt-level=0 -Clink-dead-code -Coverflow-checks=off -Zpanic_abort_tests -Cpanic=abort"
+export RUSTDOCFLAGS="-Cpanic=abort"
 export CODECOV_TOKEN="71475190-65f3-4b7f-b80f-03b62def4e9c"
 cargo clean;
 cargo update;
