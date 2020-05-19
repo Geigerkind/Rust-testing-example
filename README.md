@@ -2,6 +2,7 @@
 Testing tools:
 * Random testing (JAVA tool: Randoop)
     * https://github.com/altsysrq/proptest
+    * https://github.com/BurntSushi/quickcheck
 * Input Space Partitioning (Combinatorial Testing)
     * ACTS: Generate input parameter and just parse them, see acts test
 * Graph Coverage (Java tool: EclEmma)
@@ -11,12 +12,16 @@ Testing tools:
 * Syntax Coverage / Mutation Testing (Java tool: MuJava, Major)
     * https://github.com/llogiq/mutagen
     * https://llogiq.github.io/2018/02/14/mutagen.html
+    * https://github.com/rust-fuzz/afl.rs
 
 Bonus:
-* Parameterized testing
-    * https://github.com/frondeus/test-case/blob/master/README.md
-* Snapshot testing
-    * https://crates.io/crates/insta
+* Parameterized testing: https://github.com/frondeus/test-case/blob/master/README.md
+* Snapshot testing: https://crates.io/crates/insta
+* Popular JUnit Syntax:
+   * https://github.com/utkarshkukreti/speculate.rs
+   * https://github.com/farcaller/shiny
+* Mocking library?: https://github.com/mockiato/mockiato
+* Deployment testing: https://github.com/japaric/trust
     
 # Installation
 1. Install rust:
